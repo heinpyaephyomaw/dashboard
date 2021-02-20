@@ -1,0 +1,35 @@
+
+*{
+    box-sizing: border-box;
+}
+.banner-image{
+    width: 60px;
+}
+.show_date{
+    display: block !important;
+}
+.upload-image{
+    height: 150px;
+}
+
+
+
+.text-decoration{
+    text-decoration: none !important;
+}
+.card-hover{
+    transition: 0.5s;
+}
+.card-hover:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 0 5px #bcbcbc;
+}
+.card-hover:active{
+    transform: scale(1.01);
+}
+.banner-x{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 20px;
+}
